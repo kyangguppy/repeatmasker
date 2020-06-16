@@ -3,40 +3,40 @@ file name: upper_guppy_pacbio_male.fasta
 sequences:           267
 total length:  746481348 bp  (745001348 bp excl N/X-runs)
 GC level:         39.71 %
-bases masked:  123627604 bp ( 16.56 %)
+bases masked:  235509610 bp ( 31.55 %)
 ==================================================
                number of      length   percentage
                elements*    occupied  of sequence
 --------------------------------------------------
-SINEs:            18136      3672061 bp    0.49 %
+SINEs:            14598      2834309 bp    0.38 %
       ALUs            0            0 bp    0.00 %
-      MIRs            0            0 bp    0.00 %
+      MIRs         4473       597090 bp    0.08 %
 
-LINEs:            55748     16263592 bp    2.18 %
-      LINE1           0            0 bp    0.00 %
-      LINE2           0            0 bp    0.00 %
+LINEs:            99696     30226294 bp    4.05 %
+      LINE1        4489      1809797 bp    0.24 %
+      LINE2       51505     12758500 bp    1.71 %
       L3/CR1          0            0 bp    0.00 %
 
-LTR elements:     23348      8996600 bp    1.21 %
+LTR elements:     42487     16503813 bp    2.21 %
       ERVL            0            0 bp    0.00 %
       ERVL-MaLRs      0            0 bp    0.00 %
-      ERV_classI      0            0 bp    0.00 %
+      ERV_classI   3092      2101719 bp    0.28 %
       ERV_classII     0            0 bp    0.00 %
 
-DNA elements:    285517     59071258 bp    7.91 %
-     hAT-Charlie      0            0 bp    0.00 %
-     TcMar-Tigger     0            0 bp    0.00 %
+DNA elements:    511807    116924413 bp   15.66 %
+     hAT-Charlie  57606     17199632 bp    2.30 %
+     TcMar-Tigger  5992      1449823 bp    0.19 %
 
-Unclassified:    110061     25787623 bp    3.45 %
+Unclassified:    203761     48583869 bp    6.51 %
 
-Total interspersed repeats:113791134 bp   15.24 %
+Total interspersed repeats:215072698 bp   28.81 %
 
 
-Small RNA:        15259      2890220 bp    0.39 %
+Small RNA:         6155      1998941 bp    0.27 %
 
-Satellites:          34        10023 bp    0.00 %
-Simple repeats:  118853      6086211 bp    0.82 %
-Low complexity:   15074       697828 bp    0.09 %
+Satellites:          61        19214 bp    0.00 %
+Simple repeats:  240447     11793246 bp    1.58 %
+Low complexity:   30643      1411951 bp    0.19 %
 ==================================================
 
 * most repeats fragmented by insertions or deletions
@@ -47,5 +47,5 @@ The query species was assumed to be homo
 RepeatMasker Combined Database: Dfam_3.0
                                          
 run with rmblastn version 2.9.0+
-The query was compared to classified sequences in ".../opt_DeepTE.fasta"
+The query was compared to classified sequences in ".../guppy-families.fa"
 
